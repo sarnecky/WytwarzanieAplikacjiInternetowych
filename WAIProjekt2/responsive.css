@@ -1,0 +1,99 @@
+ * {
+  margin:0px;
+  padding: 0px;
+ }
+body { 
+  font-size:16px;
+  font-family: 'Montserrat', sans-serif;; 
+  line-height:1.6; 
+  background: #99cccc;
+  padding:0;
+  margin:0;
+}
+h2{
+  text-align: center;
+}
+#caly_blok{
+  min-width:280px;
+  max-width:2000px;
+}
+#wrapper_lewy {
+ width:40%;
+ overflow:hidden;
+ margin: 0 auto; 
+ float:left;
+}
+#wrapper_prawy {
+ width:40%;
+ overflow:hidden;
+ margin: 0 auto; 
+ float:right;
+}
+#header {
+  height:100px;
+  background: #354458;
+  margin: 0 0 10px 0;
+  text-align:center;
+}
+#header h1 {
+  padding: 20px;
+  color: white;
+}  
+#content {
+ width:100%;
+ overflow:hidden;
+ font-size:1,2em;
+}
+#content2 {
+ width:100%;
+ overflow:hidden;
+ font-size:1,2em;
+}
+#wysrodkuj{
+  text-align: center;
+}
+#nav{
+  background-color:#66cc66;
+  color:#FFF;
+  margin:0;
+  list-style:none;
+  text-align:center;
+}
+#nav > li {
+  display:inline-block;
+  margin-left:2px;
+}
+#nav > li > a{
+  text-decoration:none;
+  font-size:2em;
+  color:black;
+}
+@media (max-width: 600px){
+
+#nav{
+  text-align:left;
+  display:none;
+}
+#nav > li{
+  display:block;
+ }
+ .nav-btn{
+  display:block;
+  background-color:#66cc66;
+  color:black;
+  font-size:2em;
+  text-align:center;
+  cursor:pointer;
+}
+.nav-btn:before{
+  content:"Menu";
+}
+
+}
+@media all and (min-width:280px) and (max-width:768px) {
+  #wrapper_lewy, #wrapper_prawy {
+    float:none;
+    width:auto;
+   
+  }
+}

@@ -1,0 +1,185 @@
+
+html{
+	font-size:16px;
+	
+}
+*{
+	margin:0px;
+	padding:0px;
+}
+#container{
+	margin-top:50px;
+	text-align: center;
+}
+#container1{
+	width:40%;
+	padding:10px;
+	min-width:100px;
+    max-width:100em;
+    margin: 0 auto;
+}
+hgroup{
+	text-align:center;
+}
+h1{
+	font-size:5em;
+	color:white;
+	font-family: 'Montserrat', sans-serif;
+	text-align:center;
+}
+h2{
+	color:white;
+	font-family: 'Montserrat', sans-serif;
+}
+legend{
+	font-size:5em;
+	color:white;
+	font-family: 'Montserrat', sans-serif;
+	text-align:center;
+}
+body{
+	color:black;
+	font-family:Arial, Helvetica, sans-serif;	
+	background:#99cccc;
+	font-size:62,5%;
+}
+article h1{
+	font-size:2em;
+	color:white;
+	font-family: 'Montserrat', sans-serif;
+}
+article p{
+	color:black;
+	font-size:1.5em;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.kotwice{
+	padding:30px;
+}
+#ula{
+	list-style-type:none;
+}
+a{
+	text-decoration: none;
+	
+}
+#ula a{
+	color:black;
+}
+#id3{
+	text-align: center;
+}
+section{
+	margin-right:auto;
+	margin-left:auto;
+	padding:40px;
+	
+}
+section h1{
+	padding:10px;
+}
+footer{
+	padding: 40px;
+	text-align: center;
+}
+#wysrodkuj{
+	text-align: center;
+}
+form{
+	color:black;
+	padding:10px;
+}
+#table1, td, tr{
+	 margin: 0 auto;
+	 text-align: left; 
+}
+#tr{
+	background-color:#90EE90;
+	font-size:25px;
+	
+}
+ol{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	font-size:18px;
+	height:2em;
+	line-height:2em;
+	text-align:center;
+}
+ol > li{
+	float:left;
+	background-color:#66cc66;
+	width:150px;
+	margin-left:1px;
+}
+ol > li:first-child{
+	margin-left:0;
+}
+ol a{
+	display:block;
+	color:#000;
+	text-decoration:none;
+	padding:0 5px;
+}
+ol > li > a:hover{
+	color:#09C;
+}
+ol > li:hover{
+	background-color:#336633;
+}
+ol > li:hover > ul{
+	display:block;
+}
+ol > li > ul{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	display:none;
+}
+ol > li > ul > li > a{
+	border-top: 1px solid #FFF;
+}
+ol > li > ul > li {
+  background-color:#99ff99;
+}
+
+ol > li > ul > li:hover {
+  background-color:#66cc66;
+}
+
+ol > li > ul > li:hover a {
+  color:#09C;
+}
+em, .error{
+  color:red;
+}
+@keyframes szerokosc
+{
+  0% { margin-left:0px; margin-right:400px; }
+  100% { margin-left:400px; margin-right:0px; }
+}
+@-webkit-keyframes szerokosc 
+{
+  0% { margin-left:0px; margin-right:400px; }
+  100% { margin-left:400px; margin-right:0px; }
+}
+div.animacja_formularza
+{
+    text-align:center;
+        padding:15px 0;
+
+        animation-delay:0,5s;
+        animation-name:szerokosc;
+        animation-duration:5s;
+        animation-iteration-count:infinite;
+        animation-timing-function:linear;
+        animation-direction:alternate;
+
+        -webkit-animation-direction:alternate;
+        -webkit-animation-timing-function:linear;
+        -webkit-animation-delay:3s;
+        -webkit-animation-name:szerokosc;
+        -webkit-animation-duration:5s;
+        -webkit-animation-iteration-count:infinite;
+}

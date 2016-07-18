@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<zdjecia>
+<zdj publiczne="Tak">
+<id_zdj>1</id_zdj>
+<uzytkownik>2</uzytkownik>
+<tytul>decha1</tytul>
+<plik>decha1.jpg</plik>
+</zdj>
+<zdj publiczne="Tak">
+<id_zdj>2</id_zdj>
+<uzytkownik>2</uzytkownik>
+<tytul>decha2</tytul>
+<plik>decha2.jpg</plik>
+</zdj>
+<zdj publiczne="Nie">
+<id_zdj>3</id_zdj>
+<uzytkownik>2</uzytkownik>
+<tytul>decha3</tytul>
+<plik>decha3.jpg</plik>
+</zdj>
+<zdj publiczne="Tak">
+<id_zdj>4</id_zdj>
+<uzytkownik>2</uzytkownik>
+<tytul>decha4</tytul>
+<plik>decha4.jpg</plik>
+</zdj>
+<zdj publiczne="Tak">
+<id_zdj>5</id_zdj>
+<uzytkownik>2</uzytkownik>
+<tytul>decha5</tytul>
+<plik>decha5.jpg</plik>
+</zdj>
+<zdj publiczne="Tak">
+<id_zdj>6</id_zdj>
+<uzytkownik>2</uzytkownik>
+<tytul>decha6</tytul>
+<plik>decha6.png</plik>
+</zdj>
+<zdj publiczne="Tak">
+<id_zdj>7</id_zdj>
+<uzytkownik>2</uzytkownik>
+<tytul>dehca7</tytul>
+<plik>dehca7.jpg</plik>
+</zdj>
+<zdj publiczne="Tak">
+<id_zdj>8</id_zdj>
+<uzytkownik>2</uzytkownik>
+<tytul>decha8</tytul>
+<plik>decha8.jpg</plik>
+</zdj>
+<zdj publiczne="Tak">
+<id_zdj>9</id_zdj>
+<uzytkownik>2</uzytkownik>
+<tytul>decha9</tytul>
+<plik>decha9.jpg</plik>
+</zdj>
+<zdj publiczne="Nie">
+<id_zdj>10</id_zdj>
+<uzytkownik>2</uzytkownik>
+<tytul>decha10</tytul>
+<plik>decha10.jpg</plik>
+</zdj>
+<zdj publiczne="Tak">
+<id_zdj>11</id_zdj>
+<uzytkownik>4</uzytkownik>
+<tytul>decha11</tytul>
+<plik>decha11.jpg</plik>
+</zdj>
+<zdj publiczne="Tak">
+<id_zdj>12</id_zdj>
+<tytul>decha12</tytul>
+<plik>decha12.jpg</plik>
+</zdj>
+</zdjecia>

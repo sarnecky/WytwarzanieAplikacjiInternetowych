@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Deskorolka-moja pasja</title>
+	<link rel="stylesheet" href="css.css" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Days+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+	<script type="text/javascript" src="js.js"></script>
+</head>
+<body onload="bezj()">
+
+	<header id="container">
+			<h1 id="red">Deskorolka<object data="czacha.svg" type="image/svg+xml" width="50" height="50"></object></h1>
+				<h2 id="blue">Moja Pasja</h2>
+	</header>	
+
+		<nav id="container1">
+			<ol>
+				<li class><a href="index.html">Strona Główna</a></li>
+				<li><a href="galeria.php">Galeria</a></li>
+				<li><a href="#">Ciekawostki</a>
+				<ul>
+						<li><a href="tricki.html">Tricki</a>
+						<li><a href="historia.html">Historia(mobile)</a>
+				</ul>
+				</li>
+				<li><a href="#">Formularze</a>
+					<ul>
+						<li><a href="formularz.html">Formularz</a>
+						<li><a href="kontakt.html">Kontakt</a>
+					</ul>
+				</li>
+			</ol>
+		</nav>
+		<br>
+		<br>	
+		<section class="ankieta">
+		<div class="animacja_formularza">
+		<h1>Ankieta</h1>
+		</div>
+		<article>
+		<span id="bez">Bez javascript, formularz nie działa poprawnie a przyciski są blee..</span>
+		<form id="form" action="aa.php" method="post">
+			<fieldset>
+			<legend>Informacje o Tobie</legend>
+			<p>
+				<label>Imie</label><em>*</em>
+				<input type="text" name="imie"><br>
+			</p>
+			<br>	
+			<p>
+				<label>Nazwisko:</label><em>*</em>
+				<input type="text"  name="nazwisko"><br>
+			</p>  
+			<br>
+			<p>
+				<label>Miejscowosc:</label><em>*</em>
+				<input type="text" name="miejscowosc"><br>
+			</p>
+			<br>
+			<p>
+				<label>E-mail: </label><em>*</em>
+				<input type="text" name="email"><br>
+			</p>
+			<br>
+			<p>
+				<label>Hasło:</label><em>*</em>
+				<input type="password" name="haslo"><br>
+			</p>
+			<br>
+				<div id="radio">
+				 <p>Pleć</p>
+				 <input type="radio" id = "radio1" name="radio" value="m"><label for="radio1">Mężczyzna</label>
+				 <input type="radio" id = "radio2" name="radio" value="k"><label for="radio2">Kobieta</label>
+				 </div>
+			
+			    <br>
+			
+			 <p>
+			   	<label>Tryb życia:</label>
+		         <select>
+		    				<option >Aktywny</option>
+		    				<option >Bierny</option>
+		    				<option >Uprawiam sport zawodowo</option>
+		    	 </select>
+		    	
+		    </p>
+		    	<br><br>	
+		    </fieldset>	
+		    <fieldset>
+			<legend>Ankieta</legend>
+			<p>
+						Ile razy w tygodniu uprawiasz sport?<br>
+						<input type="radio" name="sport" value="1"> 1<br>
+						<input type="radio" name="sport" value="2"> 2<br>
+						<input type="radio" name="sport" value="3"> 3<br>
+						<input type="radio" name="sport" value="4" >Wcale :)<br><br>
+						Czy efektowne sztuczki na deskorolce robia na Tobie wrażenie?<br>
+						<input type="radio" name="desk" value="1"> Tak, bardzo<br>
+						<input type="radio" name="desk" value="2"> Nie, nie bardzo<br>
+						<input type="radio" name="desk" value="3"> Co to jest deskorolka ?<br>
+						<input type="radio" name="desk" value="4"> Może<br><br>
+						Czy jazda na deskorolce jest niebezpieczna ?<br>
+						<input type="radio" name="desk" value="1"> Tak, bardzo<br>
+						<input type="radio" name="desk" value="2"> Nie, nie bardzo<br>
+						<input type="radio" name="desk" value="3"> Pływanie z krokodylami jest bezpieczniejsze<br>
+						<input type="radio" name="desk" value="4"> Nie mam zdania<br><br>
+
+				      <textarea rows="4" cols="50">Opisz swój ulubiony sposób spędzania wolnego czasu</textarea><br>
+				      <input type="checkbox" name="personal_data" >Zgoda na przetwarzanie danych osobowych<br>
+				      </p>
+				      <input id="r" type="reset">
+				      <input id="w" type="submit">
+				      <br>
+			</fieldset>	
+		</form>
+	  </article>
+	</section>
+	<footer>
+		<small>Copyright &copy; 2014 Sebastian Sarnecki</small>
+	</footer>
+			
+		
+</body>
+</html>

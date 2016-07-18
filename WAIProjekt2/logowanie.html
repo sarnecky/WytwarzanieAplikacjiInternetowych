@@ -1,0 +1,63 @@
+<?php
+session_start();
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Deskorolka-moja pasja</title>
+	<link rel="stylesheet" href="css.css" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Days+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+	<header id="container">
+			<h1 id="red">Deskorolka<object data="czacha.svg" type="image/svg+xml" width="50" height="50"></object></h1>
+				<h2 id="blue">Moja Pasja</h2>
+	</header>	
+
+		<nav id="container1">
+			<ol>
+				<li class><a href="index.html">Strona Główna</a></li>
+				<li><a href="galeria.php">Galeria</a></li>
+				<li><a href="#">Ciekawostki</a>
+				<ul>
+						<li><a href="tricki.html">Tricki</a>
+						<li><a href="historia.html">Historia(mobile)</a>
+				</ul>
+				</li>
+				<li><a href="#">Formularze</a>
+					<ul>
+						<li><a href="formularz.html">Formularz</a>
+						<li><a href="kontakt.html">Kontakt</a>
+					</ul>
+				</li>
+			</ol>
+		</nav>
+<br>
+<br>
+		<section>
+		
+
+		<h1 id="wysrodkuj">Zaloguj sie</h1>
+		<div id="id3">
+		<form action="baza_danych_odczyt.php" method="post" enctype="multipart/form-data">
+			<p>
+			    <input type="text" value="nazwa" name="nazwa"><br>
+			    <input type="password" value="haslo" name="haslo"><br>
+			    <input type="submit" name="submit" value="Zaloguj"><br><br>
+		    </p>
+		    <a href="rejstracja.html">Zarejstruj sie</a>
+		</form>
+		</div>
+
+	</section>
+	<footer>
+		<small>Copyright &copy; 2014 Sebastian Sarnecki</small>
+	</footer>
+			
+		
+</body>
+</html>
